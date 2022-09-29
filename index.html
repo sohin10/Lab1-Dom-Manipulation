@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>DOM-Wallpapers</title>
+    <link rel="stylesheet" href="main.css">
+
+  </head>
+
+
+  <body>
+    <div class="heading">
+        <h1>Browse through some cool wallpapers!</h1>
+    </div>
+    
+
+    
+
+    <div class = "wallpaper">
+        <div class="image-box">
+            <img src="wallpapers/image-1.png" class="wallpaper-img">
+        </div>
+
+        <button class="btn previous"> PREVIOUS</button>
+        <button class="btn next"> NEXT</button>   
+
+    </div>
+
+   
+    <div class="heading">
+        <h4>Click on the moon to change to Dark Mode</h4>
+        <img src="moon.svg" onclick="moon()" id = "modebutton" class="mode-img">
+    </div>
+
+
+    <div class="heading">
+        <h4>Click on the moon to change back to Light Mode</h4>
+        <img src="sun.svg" onclick="sun()" id = "modebutton" class="mode-img">
+    </div>
+    
+
+
+    
+
+
+
+
+	<script src="main.js"></script>
+  </body>
+</html>

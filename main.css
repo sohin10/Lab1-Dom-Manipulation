@@ -1,0 +1,70 @@
+body{
+    align-items: center;
+    text-align: center;
+}
+
+.wallpaper{
+    margin: 30px auto;
+
+}
+
+
+.heading h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.heading h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+
+/* prev/next buttons */
+.btn{
+    border: none;
+    outline: none;
+    background: rgb(106, 106, 106);
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px 30px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: black;
+}
+
+
+/* mode buttons */
+.mode-img{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+
+}
+
+
+
+
+/* increasing image size for desktop */
+@media only screen and (min-width: 1000px){
+
+    .wallpaper-img{
+        width: 25%;
+    }
+
+
+}
+
+
+
+
+
+
+   
+
+
+
