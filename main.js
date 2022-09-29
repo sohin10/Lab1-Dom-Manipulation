@@ -30,6 +30,7 @@ function next(){
     return allImgs();
 
 }
+
 //move through all images
 function allImgs(){
     return wallpaperimg.setAttribute('src', 'wallpapers/' + images[i]);
